@@ -1,6 +1,8 @@
+using PaymentContext.Shared.ValuesObject;
+
 namespace PaymentContext.Domain.ValueObjects
 {
-    public class Name
+    public class Name : ValuesObject
     {
         public Name(string firstName, string lastName)
         {
